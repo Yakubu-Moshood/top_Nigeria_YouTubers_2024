@@ -124,19 +124,62 @@ The data quality checks were carried out to ensure the integrity of the dataset 
 
 ### Data Testing 
 
-For the row count; 
-- Input Query
+#### Row Count Check: 
+Count the total number of records (or rows) in the SQL view
 
-  ``` sql
-  
+ 
+```sql
 SELECT 
 COUNT(*) as no_of_row
-FROM [top_ng_youtubers_2024].[dbo].[view_ng_youtubers2024];
-
+FROM view_ng_youtubers2024;
 ```
 
 - Output
+
 ![row_count_check](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/18f21ff1ddc10e7e1ca2836438197b00cb753649/row_count_check_youtubenig.png)
+
+#### Column Count Check
+Count the total number of columns (or fields) are in the SQL view
+
+```sql
+SELECT COUNT(*) AS Column_count 
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'view_ng_youtubers2024';
+```
+
+![Column_Count_output](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/main/columns%20checkyoutube.png?raw=true)
+
+#### Data Type Check 
+Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+
+```sql
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'view_ng_youtubers2024';
+```
+
+![Data_type_check_output](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/main/data_types_checksyoutube.png?raw=true)
+
+#### Duplicate Count Check 
+- 1. Check for duplicate rows in the view
+- 2. Group by the channel name
+- 3. Filter for groups with more than one row
+
+```sql
+SELECT channelname,
+	COUNT(*) as duplicate_count
+from view_ng_youtubers2024  
+GROUP BY channelname
+HAVING COUNT(*) > 1
+```
+
+![Duplicate_Count_Check](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/main/duplicate_checksyoutube%20.png?raw=true)
+
+
+
+
+
+
 
 
 
