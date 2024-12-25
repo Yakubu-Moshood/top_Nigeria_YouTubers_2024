@@ -118,10 +118,25 @@ The steps needed to clean and shape the data into the desired format are
 
 The data transformation was done in Power Query where the column headers were changed. 
 
-## Test
+## Testing
 
 The data quality checks were carried out to ensure the integrity of the dataset we would be using for our analysis using SQL as shown below; 
 
+### Data Testing 
+
+For the row count; 
+- Input Query
+
+  ``` sql
+  
+SELECT 
+COUNT(*) as no_of_row
+FROM [top_ng_youtubers_2024].[dbo].[view_ng_youtubers2024];
+
+```
+
+- Output
+![row_count_check](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/18f21ff1ddc10e7e1ca2836438197b00cb753649/row_count_check_youtubenig.png)
 
 
 
