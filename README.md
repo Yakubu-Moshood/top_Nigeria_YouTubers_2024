@@ -4,9 +4,9 @@ This project provides an in-depth analysis of the top Nigerian YouTubers in 2024
 # Table of Contents
 - [Objective](#objective)
 - [Data Source](#data-source)
-- [Stages]()
-- [Design]()
-  - [Mockup]()
+- [Stages](#stages)
+- [Design](#design)
+  - [Mockup](#mockup)
   - [Tools]()
 - [Development]()
   - [Pseudocode]()
@@ -49,6 +49,26 @@ The Dataset needed for this analysis has to include
 - total videos uploaded
 
 The dataset was sourced from Social Blade and processed using ChatGPT to structure, and convert it into an Excel sheet. The source file can be found [here](https://socialblade.com/youtube/top/country/ng/mostsubscribed) 
+
+# Stages
+- Design
+- Development
+- Testing
+- Analysis
+
+# Design
+
+Our dashboard must be designed in such a way that it would be able  to answer the following questions:
+
+Who are the top 10 YouTubers with the most subscribers?
+Which 3 channels have uploaded the most videos?
+Which 3 channels have the most views?
+Which 3 channels have the highest average views per video?
+Which 3 channels have the highest views per subscriber ratio?
+Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+- ## Mockup
+- The mockup allows us to visualize what our dashboard will look like before we get started building it. 
 
 
 
