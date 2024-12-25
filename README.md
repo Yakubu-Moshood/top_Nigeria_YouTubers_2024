@@ -93,9 +93,26 @@ The general approach to creating this project from the beginning till the end is
 - Publish the data to GitHub Pages
 
   
+## Data Exploration 
 
+This is the stage where I checked my data  for any errors, inconsistencies, bugs, weird and corrupted characters, etc. 
+At least four columns contain the data we need for this analysis, which indicates that everything needed for this analysis was in the dataset; hence, the data from the source is sufficient for this analysis. 
+I also noticed some additional columns which are not needed for the project, hence the need for them to be removed. Some column names also had to be changed 
 
+## Data cleaning
 
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+The cleaned data should meet the following criteria and constraints:
+
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+
+The steps needed to clean and shape the data into the desired format are
+
+- 1. Remove unnecessary columns by only selecting the ones you need
+- 2. Rename columns using aliases
 
 
 
