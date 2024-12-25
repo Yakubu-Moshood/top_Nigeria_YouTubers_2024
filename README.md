@@ -7,20 +7,19 @@ This project provides an in-depth analysis of the top Nigerian YouTubers in 2024
 - [Stages](#stages)
 - [Design](#design)
   - [Mockup](#mockup)
-  - [Tools]()
-- [Development]()
-  - [Pseudocode]()
-  - [Data Exploration]()
-  - [Data Cleaning]()
-  - [Transform the Data]()
-  - [Create the SQL View]()
-- [Testing]()
-  - [Data Quality Tests]()
-- [Visualization]()
-  - [Results]()
-  - [DAX Measures]()
-- [Analysis]()
-  - [Findings]()
+  - [Tools](#tools)
+- [Process](#process)
+  - [Data Exploration](#data-exploration)
+  - [Data Cleaning](#data-cleaning)
+  - [Transform the Data](#transform-the-data)
+  - [Create the SQL View](#create-the-sql-view)
+- [Testing](#testing)
+  - [Data Quality Tests](#data-quality-tests)
+- [Visualization](#visualization)
+  - [Results](#results)
+  - [DAX Measures](#dax-measures)
+- [Analysis](#analysis)
+  - [Findings](#findings)
   - [Validation]()
   - [Discovery]()
 - [Recommendations](#objective)
@@ -67,12 +66,31 @@ Which 3 channels have the highest average views per video?
 Which 3 channels have the highest views per subscriber ratio?
 Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
-- ## Mockup
+## Mockup
 - The mockup allows us to visualize what our dashboard will look like before we get started building it.
 
-- ![Dashboard-Mockup](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/467f9888c7e42af6b7b7a787975210544440bcf8/mockup%20for%20dashboard.png)
+![Dashboard-Mockup](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/467f9888c7e42af6b7b7a787975210544440bcf8/mockup%20for%20dashboard.png)
 
+ ## Tools
 
+ - Excel	Exploring the data
+ -  SQL Server	Cleaning, testing, and analyzing the data
+ - Power BI	Visualizing the data via interactive dashboards
+ - GitHub	Hosting the project documentation and version control
+ - Mockup AI	Designing the wireframe/mockup of the dashboard
+
+## Process 
+The general approach to creating this project from the beginning till the end is:
+
+- Get the data
+- Explore the data in Excel
+- Load the data into SQL Server
+- Clean the data with SQL
+- Test the data with SQL
+- Visualize the data in Power BI
+- Generate the findings based on the insights
+- Write the documentation + commentary
+- Publish the data to GitHub Pages
 
   
 
