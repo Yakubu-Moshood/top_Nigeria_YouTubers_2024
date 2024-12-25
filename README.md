@@ -41,7 +41,14 @@ This project aims to deliver a data-driven dashboard to support the marketing te
 
 # Data Source
 
+The Dataset needed for this analysis has to include  
 
+- channel names
+- total subscribers
+- total views
+- total videos uploaded
+
+The dataset was sourced from Social Blade and processed using ChatGPT to structure, and convert it into an Excel sheet. The source file can be found [here](https://socialblade.com/youtube/top/country/ng/mostsubscribed) 
 
 
 
