@@ -68,7 +68,10 @@ Which 3 channels have the highest views per subscriber ratio?
 Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 - ## Mockup
-- The mockup allows us to visualize what our dashboard will look like before we get started building it. 
+- The mockup allows us to visualize what our dashboard will look like before we get started building it.
+
+- ![Dashboard-Mockup](mockup for dashboard.png)
+
 
 
 
