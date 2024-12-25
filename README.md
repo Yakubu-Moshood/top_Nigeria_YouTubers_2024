@@ -114,5 +114,14 @@ The steps needed to clean and shape the data into the desired format are
 - 1. Remove unnecessary columns by only selecting the ones you need
 - 2. Rename columns using aliases
 
+## Transforming the Data
+
+The data transformation was done in Power Query where the column headers were changed. 
+
+## Test
+
+The data quality checks were carried out to ensure the integrity of the dataset we would be using for our analysis using SQL as shown below; 
+
+
 
 
