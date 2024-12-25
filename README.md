@@ -245,9 +245,38 @@ VAR viewspersubscriber = DIVIDE(sumoftotalviews, sumoftotalsubscribers,BLANK())
 RETURN FORMAT(viewspersubscriber, "#,##0K")
 ```
 
+# Analysis 
+
+- Findings
+  
+### 1. The Top 10 YouTubers by subscribers count 
+
+![Top 10 most subscribed channel](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/Top%2010%20Youtubers%20by%20subscribers%20count.png)
 
 
+###  2. The top 3 channels that have uploaded the most videos
 
+![Top 3 channels based on video uploads](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/top%203%20by%20most%20videos%20upload.png)
+
+
+### 3. The Top 3 channels with the most views
+
+![Top 3 channels with most views](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/Most%20views%20top%203.png)
+
+
+### 4. The Top 3 channels with the highest average views per video
+
+![Top 3 highest average views per video](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/Average%20views%20per%20videos%20top%203.png)
+
+
+### 5. The top 3 channels with the highest views per subscriber ratio
+
+![Top 3 highest views per subscriber ratio](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/Views%20Per%20subscribers%20top%203.png)
+
+
+### 6. The top 3 channels have the highest subscriber engagement rate per video uploaded
+
+![Top 3 subscriber engagement rate per video uploaded](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/Subscribers%20Engagement%20Rate%20top%203.png)
 
 
 
