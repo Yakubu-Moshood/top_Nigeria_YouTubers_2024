@@ -176,6 +176,13 @@ HAVING COUNT(*) > 1
 ![Duplicate_Count_Check](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/main/duplicate_checksyoutube%20.png?raw=true)
 
 
+## Visualization
+
+- Result
+
+![Dashboard](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/raw/refs/heads/main/github%20dashboard.mp4)
+
+
 
 
 
