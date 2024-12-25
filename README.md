@@ -70,7 +70,9 @@ Which 3 channels have the highest subscriber engagement rate per video uploaded?
 - ## Mockup
 - The mockup allows us to visualize what our dashboard will look like before we get started building it.
 
-- ![Dashboard-Mockup](mockup for dashboard.png)
+- ![Dashboard-Mockup](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/commit/6747b775d132b980fa6a2b16aefdebfb941906ad#diff-a4102a8734b08d4d9eb2110f783267037fe61c211072b9a1c0f0cf71cbb98b6d)
+
+  
 
 
 
