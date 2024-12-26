@@ -20,12 +20,12 @@ This project provides an in-depth analysis of the top Nigerian YouTubers in 2024
   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
   - [Findings](#findings)
-  - [Validation]()
-  - [Discovery]()
-- [Recommendations](#objective)
-  - [Potential ROI]()
-  - [Potential Courses of Actions]()
-- [Conclusion]()
+  - [Validation](#validation)
+  - [Discovery](#discovery)
+- [Recommendations](#recommendations)
+  - [Potential ROI](#potential-roi)
+  - [Potential Courses of Actions](#potential-courses-of-actionns)
+- [Conclusion](#conclusion)
 
 # Objective 
 The Head of Marketing for a new fintech company is looking to explore partnerships with top Nigerian YouTubers in 2024 to drive impactful marketing campaigns throughout the coming year(s).
@@ -67,7 +67,7 @@ Which 3 channels have the highest views per subscriber ratio?
 Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 ## Mockup
-- The mockup allows us to visualize what our dashboard will look like before we get started building it.
+- The mockup allows us to visualize our dashboard's appearance before we start building it.
 
 ![Dashboard-Mockup](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/467f9888c7e42af6b7b7a787975210544440bcf8/mockup%20for%20dashboard.png)
 
@@ -277,6 +277,216 @@ RETURN FORMAT(viewspersubscriber, "#,##0K")
 ### 6. The top 3 channels have the highest subscriber engagement rate per video uploaded
 
 ![Top 3 subscriber engagement rate per video uploaded](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/d59ab6f72450800d82d0edebb69d72184fdeb12a/Subscribers%20Engagement%20Rate%20top%203.png)
+
+
+### Validation
+
+#### 1.	Youtubers with the most subscribers
+
+a. **MarkAngelComedy**
+
+Calculation breakdown
+Campaign idea = product placement
+•	Average views per video = 2.20 million
+•	Product cost = $5
+•	Potential units sold per video = 2.20 million x 2% conversion rate = 44,000 units sold
+•	Potential revenue per video = 44,000 x $5 = 220,000
+•	Campaign cost (one-time fee) = $50,000
+•	Net profit =$220,000 - $50,000 = $170,000
+
+b. **Agbaps Shorts**
+
+•	Average views per video = 5.26 million
+•	Product cost = $5
+•	Potential units sold per video = 5.26 million x 2% conversion rate = 105,200 units sold
+•	Potential revenue per video = 105,200 x $5 = $526,000
+•	Campaign cost (one-time fee) = $50,000
+•	Net profit = $526,000 - $50,000 = $476,000
+
+c. **Rema**
+
+•	Average views per video = 11.57 million
+•	Product cost = $5
+•	Potential units sold per video = 11.57 million x 2% conversion rate = 231,400 units sold
+•	Potential revenue per video = 231,400 x $5 = $1,157,000
+•	Campaign cost (one-time fee) = $50,000
+•	Net profit = $1,157,000 - $50,000 = $1,107,000
+
+Best option from category: Rema
+
+### 2. Youtubers with the most videos uploaded
+
+Calculation breakdown
+Campaign idea = sponsored video series
+
+a.	**TVC News**
+•	Average views per video = 4,000
+•	Product cost = $5
+•	Potential units sold per video = 20,000 x 2% conversion rate = 80 units sold
+•	Potential revenue per video = 80 x $5= $ 400
+•	Campaign cost (10-videos @ $5,000 each) = $50,000
+•	Net profit = $ 400 - $50,000 = -$49,600 (potential loss)
+
+b. **Nollywoodpicturestv**
+
+•	Average views per video = 98,000
+•	Product cost = $5
+•	Potential units sold per video = 98,000 x 2% conversion rate = 1,960 units sold
+•	Potential revenue per video = 1,960 x $5= $9,800
+•	Campaign cost (10-videos @ $5,000 each) = $50,000
+•	Net profit = $9,800 - $5-,000 = -$40,200 (potential loss)
+
+c. **CelebrateTV**
+
+•	Average views per video = 20,000
+•	Product cost = $5
+•	Potential units sold per video = 20,000 x 2% conversion rate = 400 units sold
+•	Potential revenue per video = 400 x $5= $2,000
+•	Campaign cost (10-videos @ $5,000 each) = $50,000
+•	Net profit = $2,000 - $50,000 = -$48,000 (potential loss)
+
+The best option from this category is Nollywoodpicturestv, which incurs the least loss of the top 3.  
+
+
+### 3. Youtubers with the most views
+
+Calculation breakdown
+Campaign idea = Influencer marketing
+
+a. **Agbaps Shorts**
+
+•	Average views per video = 5.26 million
+•	Product cost = $5
+•	Potential units sold per video = 5.26 million x 2% conversion rate = 105,200 units sold
+•	Potential revenue per video = 105,200 x $5 = $526,000
+•	Campaign cost (3-month contract) = $90,000
+•	Net profit = $526,000 - $90,000 = $436,000
+
+b. **MarkAngelComedy**
+
+•	Average views per video = 2.20 million
+•	Product cost = $5
+•	Potential units sold per video = 2.20 million x 2% conversion rate = 44,000 units sold
+•	Potential revenue per video = 44,000 x $5 = $ 220,000
+•	Campaign cost (3-month contract) = $90,000
+•	Net profit = $220,000 - $90,000 = $130,000
+
+c. **Rema**
+
+•	Average views per video = 11.59 million
+•	Product cost = $5
+•	Potential units sold per video = 11.59 million x 2% conversion rate = 231,800 units sold
+•	Potential revenue per video = 231,800 x $5 = $1,159,000
+•	Campaign cost (3-month contract) = $90,000
+•	Net profit = $1,159,000 - $90,000 = $1,069,000
+
+Best option from category: Rema 
+
+## Discovery 
+
+##### Top YouTubers by Subscribers:
+
+MarkAngelComedy leads with 9.36M subscribers.
+Other notable channels include Agbaps Shorts (5.4M), Rema (4.6M), and CKay (4.13M).
+
+##### Content Creators with the Most Video Uploads:
+
+TVC News Nigeria has an exceptional count of 138,240 videos.
+Nollywoodpicturestv (9,345) and CelebrationTV (9,047) follow, focusing on high-frequency uploads.
+
+##### Channels with the Most Views:
+
+Agbaps Shorts tops with 2.62B views.
+MarkAngelComedy (2.39B) and Rema (1.89B) are also highly viewed.
+
+##### Average Views Per Video:
+
+Officialpsquare delivers exceptional average views (12.35M), indicating high engagement on fewer uploads.
+Rema (11.57M) and CKay (10.98M) also excel.
+
+##### Engagement Rates:
+
+Jhanzou shows the highest engagement per video upload (106,923), followed by CKay (29,500) and Rema (28,200), demonstrating active audience interaction.
+
+# Recommendations 
+Influencer Choices Based on Campaign Goals:
+
+**Broad Reach Campaign:**
+
+Choose Rema or Agbaps Shorts for high average views and overall reach. Their audiences are sizable and actively engaged.
+
+**Engagement-Focused Campaign:**
+
+Jhanzou or CKay is ideal for maximizing audience interaction with content.
+
+**Product Placement Campaigns:**
+
+Channels like Officialpsquare or MarkAngelComedy provide consistent viewership, enhancing product visibility over a broader audience.
+
+**Avoid:**
+
+Channels with disproportionately high uploads and low engagement (e.g., TVC News Nigeria) unless targeting niche, high-frequency content viewers.
+
+### Potential ROI Estimates
+Using a baseline:
+- Conversion Rate: 2%.
+- Product Cost: $5/unit.
+
+**Case Examples:**
+
+- Rema:
+Average views per video: 11.57M.
+Potential units sold: 231,400.
+Revenue: $1,157,000.
+Net profit (after $90,000 campaign cost): $1,067,000.
+
+- Agbaps Shorts:
+Revenue: $526,000.
+Net profit: $436,000.
+
+- MarkAngelComedy:
+Revenue: $220,000.
+Net profit: $130,000.
+
+Best ROI Channel: Rema (highest net profit potential).
+
+### Action Plan
+
+1.	Identify Key Influencers:
+
+Engage Rema and Agbaps Shorts for primary campaigns.
+Include Jhanzou for smaller-scale, engagement-specific campaigns.
+
+2.	Define Campaign Structure:
+   
+Use Rema for broad-reach campaigns, targeting new fintech products.
+Utilize Agbaps Shorts for short, high-impact promotions.
+
+4.	Budget Allocation:
+Focus 70% of the influencer budget on high-ROI channels like Rema and Agbaps Shorts.
+Allocate 30% for experimental partnerships with engagement-heavy creators like Jhanzou.
+
+5.	Measurement and Optimization:
+Track campaign performance using views, engagement rates, and conversion data.
+Regularly evaluate ROI to refine ongoing campaigns.
+
+6.	Long-term Collaboration:
+
+Establish exclusive partnerships with top-performing YouTubers to build consistent brand visibility.
+
+# Conclusion 
+
+This project provides a data-driven framework for identifying the top Nigerian YouTubers in 2024, offering critical insights tailored to the needs of a fintech marketing campaign. By analyzing subscriber counts, total views, engagement rates, and video uploads, we identified creators like Rema, Agbaps Shorts, and Jhanzou as prime candidates for maximizing campaign ROI.
+
+The analysis highlights the importance of targeting creators with high average views and engagement rates to optimize reach and conversions.
+The need to avoid channels with disproportionate uploads and low engagement, ensuring efficient budget allocation.
+With a clear action plan in place, the fintech marketing team can leverage these insights to collaborate with influential YouTubers, drive product visibility, and achieve significant returns on investment. This strategy not only aligns with current audience behaviors but also positions the brand for long-term success in the competitive digital landscape.
+
+
+
+
+
+
 
 
 
