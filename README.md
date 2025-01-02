@@ -179,7 +179,7 @@ HAVING COUNT(*) > 1
 ## Visualization
 
 - Result
-![Dashboardimage]()
+![Dashboardimage](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/5f1432dac4a0c4abf102b28984d0f0fe4272a6ec/dashboard1.png)
 
 ![Dashboard](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/issues/1#issue-2766162508)
 
