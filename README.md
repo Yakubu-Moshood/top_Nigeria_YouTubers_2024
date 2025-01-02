@@ -187,66 +187,6 @@ HAVING COUNT(*) > 1
 
 The Dax Measures used in calculating different metrics used for our analysis can be found here [Project DAX measures](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/6f0935cf0f2e72ed76cb7fc630a179ea97c9f29b/DAX%20Measures%20for%20Top%20Nigeria%20YouTubers%20in%202024%20project.txt)
 
-- Total Subscribers (M)
-```DAX Measures
-Total Subscribers (M) = 
- VAR million = 1000000
- VAR sumofSubscribers = SUM(view_ng_youtubers2024[total_Subscribers])
- VAR totalsubscribers = DIVIDE(sumofSubscribers,million)
-
- RETURN totalsubscribers
-```
-
--  Total Views (B)
-```DAX
-
-
-Total Views (B) = 
-VAR billion = 1000000000
-VAR sumoftotalviews = sum(view_ng_youtubers2024[total_views])
-VAR totalviews = DIVIDE(sumoftotalviews, billion)
-
-RETURN totalviews
-```
-
-- Total Videos
-```DAX
-VAR totalvideos = SUM(view_ng_youtubers2024[total_videos])
-
-RETURN totalvideos
-```
-
-- Average Views Per Video
-```DAX
-Avg ViewS Per Video (M) = 
-VAR sumoftotalviews = sum(view_ng_youtubers2024[total_views])
-VAR sumoftotalvideos = sum(view_ng_youtubers2024[total_videos])
-VAR avgviewspervideo = DIVIDE(sumoftotalviews, sumoftotalvideos, BLANK())
-VAR finalavgviewspervideo = DIVIDE(avgviewspervideo, 1000000, BLANK())
-
-RETURN finalavgviewspervideo
-```
-
-- Subscribers Engagement Rate
-```DAX
-Subscribers Engagement Rate = 
-
-VAR sumoftotalsubscribers = SUM(view_ng_youtubers2024[total_Subscribers])
-VAR sumoftotalvideos = SUM(view_ng_youtubers2024[total_videos])
-VAR SubscribersEngRate = DIVIDE(sumoftotalsubscribers, sumoftotalvideos, BLANK())
-
-RETURN FORMAT(SubscribersEngRate, "#,##0K")
-```
-
-- Views Per Subscriber
-```DAX
-Views Per Subscriber = 
-VAR sumoftotalviews = SUM(view_ng_youtubers2024[total_views])
-VAR sumoftotalsubscribers = SUM(view_ng_youtubers2024[total_Subscribers])
-VAR viewspersubscriber = DIVIDE(sumoftotalviews, sumoftotalsubscribers,BLANK())
-
-RETURN FORMAT(viewspersubscriber, "#,##0K")
-```
 
 # Analysis 
 
