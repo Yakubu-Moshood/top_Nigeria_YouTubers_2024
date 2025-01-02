@@ -181,7 +181,7 @@ HAVING COUNT(*) > 1
 - Result
 ![Dashboardimage](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/5f1432dac4a0c4abf102b28984d0f0fe4272a6ec/dashboard1.png)
 
-![Dashboard](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/issues/1#issue-2766162508)
+The entire dashboard can be found here: [Interactive_Dashboard](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/deb0301abf34467cb5e27250fa2fce3a18cde69f/top_nig_youtubers_2024.pbix)
 
 ## DAX Measures
 
