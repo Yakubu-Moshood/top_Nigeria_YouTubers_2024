@@ -185,6 +185,8 @@ HAVING COUNT(*) > 1
 
 ## DAX Measures
 
+The Dax Measures used in calculating different metrics used for our analysis can be found here [Project DAX measures](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/6f0935cf0f2e72ed76cb7fc630a179ea97c9f29b/DAX%20Measures%20for%20Top%20Nigeria%20YouTubers%20in%202024%20project.txt)
+
 - Total Subscribers (M)
 ```DAX Measures
 Total Subscribers (M) = 
@@ -197,6 +199,8 @@ Total Subscribers (M) =
 
 -  Total Views (B)
 ```DAX
+
+
 Total Views (B) = 
 VAR billion = 1000000000
 VAR sumoftotalviews = sum(view_ng_youtubers2024[total_views])
@@ -207,7 +211,6 @@ RETURN totalviews
 
 - Total Videos
 ```DAX
-Total Videos = 
 VAR totalvideos = SUM(view_ng_youtubers2024[total_videos])
 
 RETURN totalvideos
