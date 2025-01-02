@@ -67,7 +67,7 @@ Which 3 channels have the highest views per subscriber ratio?
 Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 ## Mockup
-- The mockup allows us to visualize our dashboard's appearance before we start building it.
+- The mockup allows us to visualize the appearance of our dashboard before we start building it.
 
 ![Dashboard-Mockup](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/467f9888c7e42af6b7b7a787975210544440bcf8/mockup%20for%20dashboard.png)
 
@@ -95,7 +95,7 @@ The general approach to creating this project from the beginning till the end is
   
 ## Data Exploration 
 
-This is the stage where I checked my data  for any errors, inconsistencies, bugs, weird and corrupted characters, etc. 
+This is the stage where I check my data for errors, inconsistencies, bugs, weird and corrupted characters, etc. 
 At least four columns contain the data we need for this analysis, which indicates that everything needed for this analysis was in the dataset; hence, the data from the source is sufficient for this analysis. 
 I also noticed some additional columns which are not needed for the project, hence the need for them to be removed. Some column names also had to be changed 
 
@@ -139,7 +139,7 @@ FROM view_ng_youtubers2024;
 ![row_count_check](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/blob/18f21ff1ddc10e7e1ca2836438197b00cb753649/row_count_check_youtubenig.png)
 
 #### Column Count Check
-Count the total number of columns (or fields) are in the SQL view
+Count the total number of columns (or fields) in the SQL view
 
 ```sql
 SELECT COUNT(*) AS Column_count 
@@ -180,8 +180,7 @@ HAVING COUNT(*) > 1
 
 - Result
 
-![Dashboard](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/raw/refs/heads/main/github%20dashboard.mp4)
-
+![Dashboard](https://github.com/Yakubu-Moshood/top_Nigeria_YouTubers_2024/issues/1#issue-2766162508)
 
 ## DAX Measures
 
